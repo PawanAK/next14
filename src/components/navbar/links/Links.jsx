@@ -24,7 +24,7 @@ const Links = () => {
     <div>
       {links.map((link) => (
         <Link href={link.path} key={link.title}>
-          <a>{link.title}</a>
+          {link.title}
         </Link>
       ))}
     </div>
